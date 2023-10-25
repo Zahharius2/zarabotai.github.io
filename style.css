@@ -10,6 +10,13 @@ body
     border: solid 4px rgb(17, 0, 168);
     background-image: url(ken.gif)
 }
+.scale {
+    transition: 0.9s; 
+   }
+   .scale:hover {
+    transform: rotate(360deg); 
+    opacity: 0%;
+   }
 header
 {
     display: block;
