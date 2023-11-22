@@ -98,3 +98,6 @@ footer
     text-align: center;
     padding:15px
 }
+.glyphicon-search:before {
+    content: "\e003";
+}
