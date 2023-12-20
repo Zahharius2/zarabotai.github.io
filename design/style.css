@@ -1,0 +1,103 @@
+*{
+    margin-top:0px;
+}
+body
+{
+    background-color:rgb(0, 3, 184);
+    font-family: Arial,sans-serif;
+    margin: 0px auto;
+    max-width: 900px;
+    border: solid 4px rgb(17, 0, 168);
+    background-image: url(ken.gif)
+}
+.scale {
+    transition: 0.9s; 
+   }
+   .scale:hover {
+    transform: rotate(360deg); 
+    opacity: 0%;
+   }
+header
+{
+    display: block;
+    background-color:rgb(0, 3, 184);
+    color: white;
+    text-align: center;
+    
+}
+h3
+{
+    color:rgb(0, 3, 184);
+    text-align: center;
+    background-color:white;
+}
+h4
+{
+    color: rgb(0, 3, 184);
+    background-color:white;
+    transform: rotate(-45deg);
+    text-align: left;
+    padding-left: 50px;
+    position: relative;
+    left: -125px;
+    top: -300px;
+}
+nav
+{
+    width: 25%;
+    float: left;
+    background-color:rgb(255, 255, 255);
+}
+nav a:link, nav a:visited
+{
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+nav a:hover
+{
+    color: white;
+    background-color:rgb(0, 3, 184);
+}
+section
+{
+    display: block;
+    width: 50%;
+    float: left;
+    background-color:white;
+}
+article header
+{
+    border-radius: 10px;
+    border-radius:10px;
+    padding: 5px;
+    
+}
+article p
+{
+    margin:10px;
+}
+aside
+{
+    float: left;
+    width: 25%;
+    background-color:white;
+}
+aside p
+{
+    margin: 15px;
+}
+footer
+{
+    clear: both;
+    color: white;
+    background-color:rgb(0, 3, 184);
+    text-align: center;
+    padding:15px
+}
+.glyphicon-search:before {
+    content: "\e003";
+}
