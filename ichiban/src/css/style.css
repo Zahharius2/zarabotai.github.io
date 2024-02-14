@@ -271,7 +271,7 @@ cursor: pointer;
     font-size: 36px;
     text-align: center;
     text-transform: uppercase;
-    color: #3B87F9;
+    color: #C10000;
 }
 .webinar .webinar_text{
     margin-top: 15px;
@@ -304,4 +304,13 @@ footer .footer_link_divider{
     margin-left: 5px;
     margin-right: 5px;
     font-weight: 800;
+}
+.pog {
+    transition: 1s; 
+   }
+   .pog:hover {
+    transform: rotate(720deg); 
+   }
+.krug{
+    border-radius: 50%
 }
