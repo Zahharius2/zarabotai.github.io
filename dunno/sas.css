@@ -1,0 +1,264 @@
+
+
+.lilzoom:hover {
+    transform:scale(1.04);
+    transition: 1s; 
+}
+.row div{
+    text-align: center;
+}
+.row div:nth-child(odd){
+    background: #ffffff;
+}
+.row div:nth-child(even){
+    background: #ffffff;
+}
+.imgg{
+    min-width: 100%; 
+    height: 800px;
+  }
+.carousel-item {
+    height: 30rem;
+    background-color: #777;
+  }
+footer{
+    color: #666;
+    background: #222;
+    padding: 17px 0 18px 9;
+    border-top: 1px solid #000;
+}na
+footer a{
+    color: #999;
+}
+footer a:hover{
+    color: #efefef;
+}
+.nav-link{
+    color: black;
+}
+p{
+    font-size: 30px;
+}
+.overlap {
+    position: absolute;
+    top: 94px;
+    right: 850px;
+    transform: translate(-50%, -50%);
+  }
+  .overlap2 {
+    position: absolute;
+    top: 94px;
+    right: 700px;
+    transform: translate(-50%, -50%);
+  }
+  .overlap3 {
+    position: absolute;
+    top: 94px;
+    right: 620px;
+    transform: translate(-50%, -50%);
+  }
+  .overlap4 {
+    position: absolute;
+    top: 94px;
+    right: 500px;
+    transform: translate(-50%, -50%);
+  }
+  .overlap5 {
+    position: absolute;
+    top: 94px;
+    right: 400px;
+    transform: translate(-50%, -50%);
+  }
+  .overlap6 {
+    position: absolute;
+    top: 94px;
+    right: 300px;
+    transform: translate(-50%, -50%);
+  }
+  .overlaptit {
+    position: absolute;
+    top: 90px;
+    left: 400px;
+    transform: translate(-50%, -50%);
+  }
+  .overlaptit2 {
+    position: absolute;
+    top: 530px;
+    left: 400px;
+    font-size: 40px;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  .overlapbig {
+    position: absolute;
+    top: 500px;
+    left: 850px;
+    color: white;
+    font-size: 200px;
+    transform: translate(-50%, -50%);
+  }
+  .overlapbig2 {
+    position: absolute;
+    top: 650px;
+    left: 740px;
+    font-size: 200px;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+.optimization{
+    min-height: 850px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header{
+    margin-right: 391px;
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.optimization .optimization_text{
+    margin-top: 25px;
+    margin-right: 391px;
+    color: #595959;
+    font-size: 17px;
+    font-weight: 300;
+}
+.optimization .optimization_text span{
+    font-weight: 700;
+}
+.foto{
+    position: absolute;
+    height: 700px;
+    top: 770px;
+    left: 1050px;
+    width: 500px;
+}
+.strelochka{
+    position: absolute;
+    bottom: -1200px;
+    left: 300px;
+}
+.gorod{
+    position: absolute;
+    bottom: -1350px;
+    left: 500px;
+}
+.name1{
+  position: absolute;
+  left: 500px;
+  top:2320px;
+  color: #595959;
+  font-size: 20px;
+}
+.name12{
+  position: absolute;
+  left: 970px;
+  top:2320px;
+  color: #595959;
+  font-size: 20px;
+}
+
+.ostrov{
+  position: absolute;
+  bottom: -1350px;
+  left: 1050px;
+}
+
+.sweden{
+  position: absolute;
+  bottom: -1350px;
+  left: 1600px;
+}
+
+.name2{
+  position: absolute;
+  left: 1050px;
+  top:2320px;
+  color: #595959;
+  font-size: 20px;
+}
+.name22{
+  position: absolute;
+  left: 1520px;
+  top:2320px;
+  color: #595959;
+  font-size: 20px;
+}
+
+.name3{
+  position: absolute;
+  left: 1600px;
+  top:2320px;
+  color: #595959;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .overlap,
+  .overlap2,
+  .overlap3,
+  .overlap4,
+  .overlap5,
+  .overlap6,
+  .overlaptit,
+  .overlaptit2 {
+      position: static;
+      right: auto;
+      left: auto;
+      top: auto;
+      transform: none;
+  }
+  .overlaptit2{
+    color: black;
+  }
+  .overlapbig,
+  .overlapbig2{
+    display: none;
+  }
+.optimization {
+            min-height: auto;
+            padding: 50px 0; /* Adjust padding for better mobile display */
+            text-align: center; /* Center text on mobile */
+        }
+
+        .optimization .optimization_header,
+        .optimization .optimization_text {
+            margin-right: 0; /* Remove right margin for mobile */
+        }
+
+        .foto {
+            position: relative; /* Change to relative positioning */
+            height: auto; /* Adjust height for responsiveness */
+            top: auto;
+            left: auto;
+            width: 100%; /* Make the image width 100% of the container */
+            max-width: 500px; /* Set a max-width for better control on larger screens */
+            margin-top: 20px; /* Add margin for better spacing */
+        }
+
+.gorod,
+.ostrov,
+.sweden {
+  position: relative; /* Change to relative positioning */
+  height: auto; /* Adjust height for responsiveness */
+  top: auto;
+  left: auto;
+  width: 100%; 
+  max-width: 500px; 
+  margin-top: 20px; 
+}
+.name1,
+.name2,
+.name3{
+  position: static;
+  right: auto;
+  left: auto;
+  top: auto;
+  transform: none;
+}
+.strelochka{
+  display: none;
+}
+}
+
+
+
