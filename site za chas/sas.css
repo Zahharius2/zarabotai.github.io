@@ -33,3 +33,13 @@ footer a{
 footer a:hover{
     color: #efefef;
 }
+@media (max-width: 768px) {
+    .img{
+        position: relative; /* Change to relative positioning */
+            height: auto; /* Adjust height for responsiveness */
+            top: auto;
+            left: auto;
+            width: 100%; /* Make the image width 100% of the container */
+            max-width: 500px; /* Set a max-width for better control on larger screens */
+    }
+}

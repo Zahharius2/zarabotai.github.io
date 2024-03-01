@@ -26,7 +26,7 @@ footer{
     background: #222;
     padding: 17px 0 18px 9;
     border-top: 1px solid #000;
-}na
+}
 footer a{
     color: #999;
 }
@@ -192,6 +192,11 @@ p{
   color: #595959;
   font-size: 20px;
 }
+.name32{
+  display: none;
+  color: #595959;
+  font-size: 20px;
+}
 @media (max-width: 768px) {
   .overlap,
   .overlap2,
@@ -238,7 +243,7 @@ p{
 .gorod,
 .ostrov,
 .sweden {
-  position: relative; /* Change to relative positioning */
+  position: static; /* Change to relative positioning */
   height: auto; /* Adjust height for responsiveness */
   top: auto;
   left: auto;
@@ -247,16 +252,26 @@ p{
   margin-top: 20px; 
 }
 .name1,
+.name12,
 .name2,
-.name3{
+.name22,
+.name3,
+.name32{
   position: static;
-  right: auto;
-  left: auto;
-  top: auto;
-  transform: none;
+  margin-top: 30px;
+  display: block;
 }
 .strelochka{
   display: none;
+}
+.imgg{
+  position: relative; /* Change to relative positioning */
+  height: auto; /* Adjust height for responsiveness */
+  top: auto;
+  left: auto;
+  width: 100%; /* Make the image width 100% of the container */
+  max-width: 500px; /* Set a max-width for better control on larger screens */
+  margin-top: 20px; /* Add margin for better spacing */
 }
 }
 
