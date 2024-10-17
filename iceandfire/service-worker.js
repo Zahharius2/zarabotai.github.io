@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/iceandfire/precache-manifest.e8e8b624e7156d2cdb7e4039d50613d5.js"
+  "/zarabotai.github.io/iceandfire/precache-manifest.0ff0f3b32f83e0fa5ee408dfe008325d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/iceandfire/index.html", {
+workbox.routing.registerNavigationRoute("/zarabotai.github.io/iceandfire/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
